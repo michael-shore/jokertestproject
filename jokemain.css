@@ -1,0 +1,101 @@
+
+body {
+        background-color: blueviolet;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+   
+p {
+        color:black;
+        font-style:italic;
+    } 
+.lower-text {
+        color:darkgray;        
+        }
+header {
+    position: fixed;
+    top=-20px;
+}
+
+#menu-link-main {
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    position:fixed;
+    left:30px;
+    top:170px;
+    }
+#menu-link-join {
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    position:fixed;
+    left:30px;
+    top:210px;
+    }
+     
+div {
+        width: 600px;
+        margin: 70px 300px;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 6em;
+            
+    }
+
+footer {
+      background-color: white;  
+    }
+    
+a:link, a:visited {
+        color: blue;
+        text-decoration: none;
+    }
+img {
+        max-width: 100%; 
+        height: auto;
+        }
+        
+.logo {
+        width: 180px;
+        padding: 20px;
+        margin: 0px 0px 5px 0px; 
+        }    
+        
+.registration {
+        font-style: normal;
+    }
+
+span {
+        font-weight: bold;
+    }
+footer {
+    width: 50%;
+    clear:both;
+}
+
+iframe {
+    margin-left: 30px;
+}
+    /* Какого-то хуя вот этот стиль не применяется к тэгу ul и при этом тэг ul не наследует ни хуя изначально 
+        ul {
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+*/
+ /* Строчка ниже отвечает каким-то образом за адаптив */
+@media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+        .logo{
+            display: none;
+        }        
+    } 

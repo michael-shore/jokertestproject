@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <title>The Man Who Laughs</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: lightpink;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+     p {
+        color:black;
+        font-style:italic;
+    } 
+    .lower-text {
+        color:darkgray;        
+        }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 1em;
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: underline;
+        font-family: monospace;
+    }
+    /* Какого-то хуя вот этот стиль не применяется к тэгу ul и при этом тэг ul не наследует ни хуя изначально 
+        ul {
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+*/
+ /* Строчка ниже отвечает каким-то образом за адаптив */
+        @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+            width: auto;
+            margin: 0 auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+    } 
+    </style>    
+</head>
+
+<body>
+    <div>
+    <h1>Мысли Джокера</h1>
+    <img alt="Фотка Джокера" src="https://b1.filmpro.ru/c/519579.700xp.jpg">    
+    <p>Всем привет, на этой странице, я буду делиться с вами мыслями великого и ужасного злодея DC - <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80_(DC_Comics)">Джокера</a>. Thanks</p>
+    <p>На этой странице вы найдете:</p>
+    <ul>
+        <li> Мысли</li>
+        <li> Шутки</li>
+        <li> Картинки</li>
+        <li> Игру - Виселица</li>
+    </ul>
+    <p class="lower-text"> Эта страница будет улучшаться по мере улучшения моих знаний </p>
+    </div>
+</body>
+</html>

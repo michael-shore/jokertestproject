@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <title>Join the project</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="jokemain.css">
+</head>
+
+<body>
+   <header>
+        <a href="jokeindex.html"> <img id="logo" class="logo" alt="Логотип" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/The_Joker_logo.svg"></a>
+        <a id="menu-link-main" href="jokeindex.html">Главная</a>
+        <a id="menu-link-join" href="registerpage.html">Join Us</a>  
+    </header>
+    <div>
+        <h1>Пришло время зарегистрироваться</h1>
+        <p>Заполните форму и присоединитесь к нашему сообществу почитателей Джокера.</p>  
+        <form action="https://www.marvel.com/captainmarvel/">
+            <h4>Личная информация</h4>
+            <p class="registration">Ваше имя:<input type="text" placeholder="Саб Зиро"></p>
+            <p class="registration">Дата рождения:<input type="date"></p>
+            <p class="registration">Адрес электронной почты:<input type="e-mail" placeholder="subzero@example.com"></p>
+            <h4>Аккаунт</h4>
+            <p class="registration">Ваш псевдоним в нашем сообществе:<input type="text" placeholder="Маленький Кинжал"></p>
+            <p class="registration">Пароль:<input type="password">
+            <h4>Предпочтения</h4>
+            <p class="registration">Оружие: Ножи<input type="radio" name="weapon-choice">| Пистолет<input type="radio" name="weapon-choice">| AK-47<input type="radio" name="weapon-choice">|</p>
+            <p class="registration">Степень бесжалостности:<input type="range">
+            <p class="registration">Ваша подружка
+                <select>
+                    <option selected>Выберите подружку</option>
+                    <option>Харли Квин</option>
+                    <option>Саша Грей</option>
+                    <option>Вин Дизель</option>
+                </select>
+            </p>
+            <p class="registration"><input type="submit" value="Отправить на рассмотрение великой комиссии"></p>
+        </form>
+        <button id="fuck-you-button">Fuck you button</button>
+        <p id="fuck-you-wish"></p>
+    </div>
+     <footer>
+        <hr>
+        <p class="lower-text"> Эта страница будет улучшаться по мере улучшения моих знаний </p>
+        <p><a href="#logo">Back to top</a></p>
+        <p><a href="#joker-photo">Back to loverly Joker photo</a></p>
+    </footer>
+    <script type="text/javascript">
+        document.getElementById("fuck-you-button").onclick = function(){
+            document.getElementById("fuck-you-wish").innerHTML = '<img src="image/fuckyou.jpg">'
+        }
+    </script>
+</body>
+</html>
